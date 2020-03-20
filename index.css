@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #111;
+}
+
+.todo {
+	position: relative;
+    left: 25%;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+}
+
+.addTodo {
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.addTodo input:nth-child(1) {
+	    width: 20rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    border: 2px solid green;
+    padding: 2px 10px;
+}
+
+.addTodo input:nth-child(2) {
+	width: 4rem;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+.addTodo input:nth-child(3) {
+	width: 4rem;
+    border-radius: 25px;
+    border: 2px solid green;
+    display: none;
+}
+
+.todoItems {
+	position: relative;
+	border: 2px solid green;
+	border-bottom: none;
+}
+.todoItems ul{
+	position: relative;
+	width: 100%;
+}
+.todoItems ul li{
+	position: relative;
+	width: 100%;
+}
+
+.todoList {
+	display: flex;
+    justify-content: space-around;
+    /*margin-bottom: 2rem;*/
+    border-bottom: 2px solid green;
+    padding: 10px 0;
+}
+
+.todoList input:nth-child(1) {
+	    width: 20rem;
+    height: 2.5rem;
+    border-radius: 25px;
+    padding: 2px 10px;
+    border: none;
+}
+
+.todoList input:nth-child(2) {
+	width: 4rem;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+.todoList input:nth-child(3) {
+	width: 4rem;
+    border-radius: 25px;
+    border: 2px solid green;
+}
